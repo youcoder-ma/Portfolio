@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youcoder-ma/Portfolio.git"
+  },
+  "keywords": [
+    "Portfolio"
+  ],
+  "author": "Mouad Rmaili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youcoder-ma/Portfolio/issues"
+  },
+  "homepage": "https://github.com/youcoder-ma/Portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
