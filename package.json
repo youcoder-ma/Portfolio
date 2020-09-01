@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Portfolio",
   "main": "index.js",
+  "homepage": "https://github.com/youcoder-ma/Portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,8 +20,8 @@
   "bugs": {
     "url": "https://github.com/youcoder-ma/Portfolio/issues"
   },
-  "homepage": "https://github.com/youcoder-ma/Portfolio#readme",
   "dependencies": {
+    "gh-pages": "^3.1.0",
     "node-sass": "^4.14.1"
   }
 }
